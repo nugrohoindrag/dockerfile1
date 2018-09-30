@@ -8,7 +8,7 @@ ADD . /go/src/github.com/nugrohoindrag/cetol
 RUN go install github.com/nugrohoindrag/cetol
 
 # Run the golang-docker command when the container starts.
-ENTRYPOINT /go/bin/golang-docker
+ENTRYPOINT /go/bin/cetol
 
 # http server listens on port 8080.
 EXPOSE 8080
